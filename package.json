@@ -1,5 +1,5 @@
 {
-  "name": "utils_tool",
+  "name": "common_tool_utils",
   "version": "1.0.0",
   "description": "通用基础库",
   "main": "lib/index.js",
