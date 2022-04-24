@@ -15,10 +15,10 @@ export interface KeyJson {
   [key: string]: string
 }
 
-const getJsonKey = ({ key, json }: KeyJson) => {
+const getJsonValByKey = ({ key, json }: KeyJson) => {
   const data = parseJson(json)
 
   return data ? data[key] : null
 }
 
-export default { parseJson, getJsonKey }
+export default { parseJson, getJsonValByKey }

@@ -6,6 +6,6 @@ export interface KeyJson {
 }
 declare const _default: {
     parseJson: (json: string) => ParseJson | null;
-    getJsonKey: ({ key, json }: KeyJson) => any;
+    getJsonValByKey: ({ key, json }: KeyJson) => any;
 };
 export default _default;

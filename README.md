@@ -2,14 +2,14 @@
 
 通用基础库
 
-[通用基础库](./banner.jpg)
+![通用基础库](./banner.jpg)
 
 ### JSON 
 
 | 方法      | 功能 |
 | ----------- | ----------- |
 | parseJson    | 解析json为对象       |
-| getJsonKey   | 从jSON串中获取某个属性值 |
+| getJsonValByKey   | 从jSON串中获取某个属性值 |
 
 ### once 
 

@@ -9,7 +9,7 @@ declare const _default: {
     };
     json: {
         parseJson: (json: string) => import("./json").ParseJson | null;
-        getJsonKey: ({ key, json }: import("./json").KeyJson) => any;
+        getJsonValByKey: ({ key, json }: import("./json").KeyJson) => any;
     };
     once: typeof once;
     obj: {
