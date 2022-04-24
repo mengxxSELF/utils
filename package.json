@@ -1,0 +1,31 @@
+{
+  "name": "utils_mxx",
+  "version": "1.0.0",
+  "description": "通用基础库",
+  "main": "lib/index.js",
+  "module": "lib/index.ems.js",
+  "scripts": {
+    "dev": "set NODE_ENV=developemnt && rollup -c rollup.config.js -w",
+    "build": "rm -fr lib && set NODE_ENV=production && rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengxxSELF/utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengxxSELF/utils/issues"
+  },
+  "homepage": "https://github.com/mengxxSELF/utils#readme",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/jsonwebtoken": "^8.5.8",
+    "jsonwebtoken": "^8.5.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  }
+}
