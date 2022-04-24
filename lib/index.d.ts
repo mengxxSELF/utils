@@ -12,5 +12,8 @@ declare const _default: {
         getJsonKey: ({ key, json }: import("./json").KeyJson) => any;
     };
     once: typeof once;
+    obj: {
+        getObjValByKey: (obj: any, key: string) => any;
+    };
 };
 export default _default;
