@@ -1,5 +1,5 @@
 {
-  "name": "utils_mxx",
+  "name": "utils_tool",
   "version": "1.0.0",
   "description": "通用基础库",
   "main": "lib/index.js",
@@ -12,7 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/mengxxSELF/utils.git"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "js",
+    "es6",
+    "utils",
+    "common"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
