@@ -2,7 +2,9 @@ import path from 'path'
 // 依赖引用插件 - 在打包第三方模块的过程中，rollup无法直接解析npm模块，
 // 因此需要引入插件rollup-plugin-node-resolve并配合之前的commonjs插件来解析这些第三方模块
 import resolve from 'rollup-plugin-node-resolve'
-import commonjs from 'rollup-plugin-commonjs' // commonjs模块转换插件
+
+// commonjs模块转换插件 将 CommonJS 转换成 ES2015 模块供 Rollup 处理
+import commonjs from 'rollup-plugin-commonjs'
 import ts from 'rollup-plugin-typescript2'
 import json from '@rollup/plugin-json'
 import { uglify } from 'rollup-plugin-uglify'

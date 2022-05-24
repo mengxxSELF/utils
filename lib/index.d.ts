@@ -1,4 +1,5 @@
 import once from './once';
+import toMoney from './toMoney';
 declare const _default: {
     jwt: {
         getToken: ({ payload, key, jwtSetting }: import("./jwt").GetToken) => string;
@@ -15,5 +16,6 @@ declare const _default: {
     obj: {
         getObjValByKey: (obj: any, key: string) => any;
     };
+    toMoney: typeof toMoney;
 };
 export default _default;
