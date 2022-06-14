@@ -1,11 +1,11 @@
 export default function (func: any) {
-  let flag: boolean
+  let res: any
 
-  return function (args: any) {
-    if (flag) return
+  return function (...args: any) {
+    if (res) return res
 
-    flag = true
-
-    func(args)
+    res = func(...args)
+    
+    return res
   }
 }
